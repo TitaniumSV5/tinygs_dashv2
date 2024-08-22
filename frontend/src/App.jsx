@@ -10,7 +10,7 @@ import PacketChart from "./components/PacketChart";
 
 const fetchStationDetails = async () => {
   const response = await axios.get(
-    "https://api.tinygs.com/v1/station/ROXX_LoRa@731332067"
+    "https://api.tinygs.com/v1/station/TitaniumSV5GS@922332249"
   );
   return response.data;
 };
